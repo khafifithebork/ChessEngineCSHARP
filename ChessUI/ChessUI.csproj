@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\BishopB.png" />
+    <None Remove="assets\BishopW.png" />
+    <None Remove="assets\Board.png" />
+    <None Remove="assets\CursorB.cur" />
+    <None Remove="assets\CursorW.cur" />
+    <None Remove="assets\icon.ico" />
+    <None Remove="assets\KingB.png" />
+    <None Remove="assets\KingW.png" />
+    <None Remove="assets\KnightB.png" />
+    <None Remove="assets\KnightW.png" />
+    <None Remove="assets\PawnB.png" />
+    <None Remove="assets\PawnW.png" />
+    <None Remove="assets\QueenB.png" />
+    <None Remove="assets\QueenW.png" />
+    <None Remove="assets\RookB.png" />
+    <None Remove="assets\RookW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChessLogic\ChessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\BishopB.png" />
+    <Resource Include="assets\BishopW.png" />
+    <Resource Include="assets\Board.png" />
+    <Resource Include="assets\CursorB.cur" />
+    <Resource Include="assets\CursorW.cur" />
+    <Resource Include="assets\icon.ico" />
+    <Resource Include="assets\KingB.png" />
+    <Resource Include="assets\KingW.png" />
+    <Resource Include="assets\KnightB.png" />
+    <Resource Include="assets\KnightW.png" />
+    <Resource Include="assets\PawnB.png" />
+    <Resource Include="assets\PawnW.png" />
+    <Resource Include="assets\QueenB.png" />
+    <Resource Include="assets\QueenW.png" />
+    <Resource Include="assets\RookB.png" />
+    <Resource Include="assets\RookW.png" />
+  </ItemGroup>
+
+</Project>
