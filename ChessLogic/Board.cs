@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -63,5 +64,17 @@ namespace ChessLogic
             this[7, 6] = new Knight(Player.White);
             this[7, 7] = new Rook(Player.White);
         }
-    }
+    
+
+    public static bool IsInside(Position pos)
+        {
+            return pos.Row >= 0 && pos.Row < 8 && pos.Column >= 0 && pos.Column < 8;
+        }
+
+        public bool IsEmpty(Position pos)
+        {
+            return this[pos] == null;
+        }
+
+        }
 }
