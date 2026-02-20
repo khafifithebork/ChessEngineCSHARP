@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "A0OeVDC8VEM=",
+  "dgSpecHash": "fe7gbNcccZc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\4B\\Desktop\\CHESSENGINE\\ChessEngine\\ChessLogic\\ChessLogic.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/runner/work/ChessEngineCSHARP/ChessEngineCSHARP/ChessLogic/ChessLogic.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages/microsoft.windowsdesktop.app.ref/8.0.23/microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
   "logs": []
 }

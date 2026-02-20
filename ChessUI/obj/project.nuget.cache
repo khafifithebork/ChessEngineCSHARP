@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vLllnsJG1QI=",
+  "dgSpecHash": "/7CNvQiS6aI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\4B\\Desktop\\CHESSENGINE\\ChessEngine\\ChessUI\\ChessUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/runner/work/ChessEngineCSHARP/ChessEngineCSHARP/ChessUI/ChessUI.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages/microsoft.windowsdesktop.app.ref/8.0.23/microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
+    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages/microsoft.netcore.app.host.linux-x64/8.0.23/microsoft.netcore.app.host.linux-x64.8.0.23.nupkg.sha512"
+  ],
   "logs": []
 }
