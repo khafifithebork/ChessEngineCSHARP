@@ -11,6 +11,14 @@ namespace ChessLogic
         public override PieceType Type => PieceType.Knight;
         public override Player Color { get; }
 
+        private static readonly Direction[] dirs =
+        {
+            new Direction(-2, -1), new Direction(-2, 1),
+            new Direction(-1, -2), new Direction(-1, 2),
+            new Direction(1, -2), new Direction(1, 2),
+            new Direction(2, -1), new Direction(2, 1)
+        };
+
         public Knight(Player color)
         {
             Color = color;
@@ -23,5 +31,16 @@ namespace ChessLogic
             return copy;
         }
 
+        public override IEnumerable<Move> GetMoves(Position from, Board board)
+        {
+            foreach (Direction dir in dirs)
+            {
+                Position to = from + dir;
+                if (Board.IsInside(to) && (board.IsEmpty(to) || board[to].Color != Color))
+                {
+                    yield return new Move(from, to);
+                }
+            }
+        }
     }
 }

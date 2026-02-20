@@ -1,0 +1,22 @@
+<UserControl x:Class="ChessUI.PromotionMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#CC000000">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Choose promotion piece" FontSize="20" Foreground="White" TextAlignment="Center" Margin="10"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="QueenButton" Width="80" Height="80" Margin="5" Click="QueenButton_Click">
+                <Image x:Name="QueenImage"/>
+            </Button>
+            <Button x:Name="RookButton" Width="80" Height="80" Margin="5" Click="RookButton_Click">
+                <Image x:Name="RookImage"/>
+            </Button>
+            <Button x:Name="BishopButton" Width="80" Height="80" Margin="5" Click="BishopButton_Click">
+                <Image x:Name="BishopImage"/>
+            </Button>
+            <Button x:Name="KnightButton" Width="80" Height="80" Margin="5" Click="KnightButton_Click">
+                <Image x:Name="KnightImage"/>
+            </Button>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

@@ -12,7 +12,8 @@
     <Viewbox>
         <Grid x:Name="BoardGrid"
               Width="600"
-              Height="600">
+              Height="600"
+              MouseDown="BoardGrid_MouseDown">
             <Grid.Background>
                 <ImageBrush ImageSource="/assets/Board.png"></ImageBrush>
             </Grid.Background>
@@ -20,6 +21,10 @@
                      Rows="8" 
                      Columns="8"
                      RenderOptions.BitmapScalingMode="HighQuality"/>
+            <UniformGrid x:Name="HighlightGrid"
+                     Rows="8"
+                     Columns="8"/>
+            <ContentControl x:Name="MenuContainer"/>
         </Grid>
     </Viewbox>
 </Window>
