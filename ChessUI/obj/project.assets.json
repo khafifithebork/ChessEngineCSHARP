@@ -27,32 +27,34 @@
     ]
   },
   "packageFolders": {
-    "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages": {}
+    "C:\\Users\\4B\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/work/ChessEngineCSHARP/ChessEngineCSHARP/ChessUI/ChessUI.csproj",
+      "projectUniqueName": "C:\\Users\\4B\\khafifithebork\\ChessUI\\ChessUI.csproj",
       "projectName": "ChessUI",
-      "projectPath": "/home/runner/work/ChessEngineCSHARP/ChessEngineCSHARP/ChessUI/ChessUI.csproj",
-      "packagesPath": "/home/runner/work/ChessEngineCSHARP/.codeql-scratch/dbs/csharp/working/packages",
-      "outputPath": "/home/runner/work/ChessEngineCSHARP/ChessEngineCSHARP/ChessUI/obj/",
+      "projectPath": "C:\\Users\\4B\\khafifithebork\\ChessUI\\ChessUI.csproj",
+      "packagesPath": "C:\\Users\\4B\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\4B\\khafifithebork\\ChessUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/runner/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\4B\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "/home/runner/work/ChessEngineCSHARP/ChessEngineCSHARP/ChessLogic/ChessLogic.csproj": {
-              "projectPath": "/home/runner/work/ChessEngineCSHARP/ChessEngineCSHARP/ChessLogic/ChessLogic.csproj"
+            "C:\\Users\\4B\\khafifithebork\\ChessLogic\\ChessLogic.csproj": {
+              "projectPath": "C:\\Users\\4B\\khafifithebork\\ChessLogic\\ChessLogic.csproj"
             }
           }
         }
@@ -67,7 +69,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -83,24 +85,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -109,7 +93,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
