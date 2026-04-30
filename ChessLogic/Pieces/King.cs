@@ -31,9 +31,13 @@ namespace ChessLogic
 
         public override IEnumerable<Move> GetMoves(Position from, Board board)
         {
-            foreach (Position to in MovePositionInDirs(from, board, dirs))
+            foreach (Direction dir in dirs)
             {
-                yield return new Move(from, to);
+                Position to = from + dir;
+                if (Board.IsInside(to) && (board.IsEmpty(to) || board[to].Color != Color))
+                {
+                    yield return new Move(from, to);
+                }
             }
 
             if (!HasMoved)
